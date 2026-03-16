@@ -1,10 +1,12 @@
 function clicou(){
-    
     let peso = document.getElementById("peso")
-   const dpeso = Number(peso).value
+   let dpeso = Number(peso.value)
    let altura = document.getElementById('altura')
-   const daltura = Number(altura).value
-   const resposta = document.getElementById('resposta')
-   const rest = dpeso / daltura * daltura
-   resposta.innerHTML = `O seu imc é ${rest}`
+   let daltura = Number(altura.value)
+   let resposta = document.getElementById('resposta')
+   let rest = dpeso / (daltura * daltura)
+   if(rest< 18,5){
+    resposta.innerHTML = `O seu imc é de ${rest.toFixed(2)} e você esta abaixo do peso`
+   }
+   
 }
