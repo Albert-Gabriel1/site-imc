@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="a.css">
 </head>
 <body>
-    <menu id="menu"><img src="img/9131103-imc-logo-imc-letter-imc-letter-logo-design-initials-imc-logo-linked-with-circle-and-uppercase-monogram-logo-imc-typography-for-technology-business-and-real-marca-imobiliaria-vetor.jpg" alt="" id="logo"> IMC SAUDE 
+    <menu id="menu"><img src="img/9131103-imc-logo-imc-letter-imc-letter-logo-design-initials-imc-logo-linked-with-circle-and-uppercase-monogram-logo-imc-typography-for-technology-business-and-real-marca-imobiliaria-vetor.jpg" alt="" class="logo"> IMC SAUDE 
         <div class="casa">
-        <a href="#seção1">home</a>
-        <a href="#seção2">IMC</a>
-        <a href="#seção4">ODS 3</a>
+        <img src="img/casa.png" alt="" class="logo"><a href="#seção1">home</a>
+       <img src="img/imc.png" alt="" class="logo"><a href="#seção2">IMC</a>
+        <img src="img/ods.png" alt="" class="logo"><a href="#seção4">ODS 3</a>
     </div>
 </menu>
     <main>
@@ -90,10 +90,12 @@
     </section>
     <section id="seção3">
         <artigo class="artigo">
-            <img src="img/grados-de-obesidad2.jpg" alt="" id="img1">
+            <img src="img/IMAGEM-DESTAQUE-BLOG-INFOGRAFICO-SPATZ.png" alt="" id="img1">
             <h2>Calculadora de IMC</h2>
-            <p id="altura">Altura (m):</p>
-            <p id="peso">Peso (kg):</p>
+            <label for="peso">Peso (kg):</label>
+            <input type="number" name="" id="peso"> 
+            <label for="altura">Altura (m):</label>
+            <input type="number" name="" id="altura">
             <button class="botão" onclick="clicou()">Calcular IMC</button>
             <h2 id="resposta">Seu IMC</h2>
             <p>
