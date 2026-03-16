@@ -5,16 +5,21 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-main{
-}
+
 #menu{
     background-color: #4CAF50;
-    height: 60px;
+    height: auto;
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
     border: 1px solid black;
-    
+    padding: 10px;
+}
+main{
+    width: 90%;
+    margin: auto;
 }
 .logo{
     height: 50px;
@@ -111,11 +116,7 @@ strong{
     margin: auto;
     margin-top: 10px;
 }
-input{
-    background-color: rgb(61, 60, 60);
-    color: white;
-    border: 2px solid green;
-}
+
 .botão:hover{
     background-color: white;
     color: black;
@@ -168,9 +169,24 @@ a:hover{
     
     
 }
-#img1{
+.img1{
     height: 450px;
     width:auto;
     margin: auto;
+    max-width: 100%;
     border-radius: 10px;
+
+}
+footer{
+    background-color: #2b5c2c;
+    color: white;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#footert{
+    display: flex;
+    justify-content: center;
 }
